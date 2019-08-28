@@ -1,5 +1,8 @@
 Exporting to LUX Walker
 ======================================
+
+.. image:: /00_extra/images/3dtools.jpg
+
 Plugins for various 3D tools export a .WALK file which can be opened in LUX Walker.
 See below for more information using your favorite tool.
 
