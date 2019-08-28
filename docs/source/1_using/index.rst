@@ -1,5 +1,5 @@
 
-Start Screen:
+Quick Start
 ======================================
 
 
@@ -7,16 +7,28 @@ Start Screen:
 Home
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/LW_Startscreen.jpg
+.. image:: images/home.jpg
 
 1. Select and choose project to load. (.WALK Files) – Opens file browser.
 2. Click to enable multi user experience. See Multiplayer settings below.
-3. Choose mode, either in VR mode (will only display if VR headset has been set up) or Desktop mode. Click to launch.
+3. Click to launch in VR.
+
+.. image:: images/tutorial.jpg
+
+4. Choose help to access tutorial and other options.
 
 
+Using your VR Controllers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Step Into VR
+.. image:: images/Menu.jpg
+
+LUX Walker offers an intuitive help system and menu panel. Review the tools and help features that can be found when using LUX Walker application.
+
+
+Step into VR
 ======================================
+
 
 Included from the LUX Walker home screen is a Tutorial level which will get you familiar with the LUX Walker interface and using its tools in VR.
 For your convenience the tools and features are listed below
@@ -29,6 +41,11 @@ Mini Model
 
 View a scale model of your project. Teleport to any location on the map. Simply point and aim the controller at the desired location while holding down on the touchpad button.
 The teleport indicator will appear now release the button to teleport to that location.
+
+When in Mini Model you can squeeze both grip buttons and move both controllers apart to zoom in or move them together to zoom out. You can also rotate the model like this.
+
+Use one grip and controller to move the model.
+
 
 Time Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -127,7 +144,7 @@ Measure Tool
 
 
 
-Share a World or Project
+Share a .WALK Project
 ======================================
 
 As long as another user has LUX Walker you can share a file with them and step into the same world.
@@ -138,6 +155,9 @@ How To Multi-user LUX Walker walkthrough:
 1.	Export your .WALK.
 2.	Test your file in LUX Walker.
 3.	Send the .WALK file to your collaborator – they need a copy of LUX Walker.
-4.	Open the file on both PC’s.
+4.	Open the file on either PC’s.
 5.	Enable Multi-User Mode.
 6.	Click VR Mode icon.
+7.	Open the file on the other PC.
+8.	Enable Multi-User Mode.
+9.	Click VR Mode icon.

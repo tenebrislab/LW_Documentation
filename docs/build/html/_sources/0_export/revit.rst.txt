@@ -17,7 +17,7 @@ Model Preparation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-The Exporter will export anything that is visible in the view. Please disable anything that does not require discussion.
+Please make sure your model is as clean as possible to ensure best performance.
 
 .. toctree::
    :maxdepth: 2
@@ -26,8 +26,29 @@ The Exporter will export anything that is visible in the view. Please disable an
    revit/index
 
 
-FAQ
+Export Process
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Exporter will export anything that is visible in the view. Please disable anything that does not require discussion.
+
+.. toctree::
+   :maxdepth: 1
+
+
+   revit/export
+
+
+FAQ - Revit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
-XXXXXX
+LUX Walker is slow:
+
+:ref:`Reduce geometry quality using the quality slider<Export Window Settings>`.
+Remove unused details and objects from the export view.
+
+
+Material Transfer:
+
+:ref:`Materials are not correct in LUX Walker<Material Transfer>`.
+Ensure the material settings are correct in Revit. Materials with fade and tint will export these settings to LUX Walker.

@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Start Screen:" href="../1_using/index.html" />
-    <link rel="prev" title="Content Preparation:" href="revit/index.html" /> 
+    <link rel="next" title="OBJ Export" href="obj.html" />
+    <link rel="prev" title="Rhino .WALK Plugin" href="rhino.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -82,38 +82,45 @@
             
               <p class="caption"><span class="caption-text">LUX Walker:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../00_extra/about.html">Automated Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/about.html">Instant VR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/about.html#automated-workflow">Automated Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/about.html#easy-collaboration">Easy Collaboration</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Getting Started:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html">Virtual Reality</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html#system-requirements">System Requirements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html#installation">Installation:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html#installation">Installation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Exporting Projects:</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Exporting to LUX Walker</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="3ds.html">3Ds Max Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="blender.html">Blender .WALK Plugin</a></li>
 <li class="toctree-l2"><a class="reference internal" href="revit.html">Revit  .WALK Addin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rhino.html">Rhino .WALK Plugin</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Sketchup .WALK Plugin</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#project-information">Project Information</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#model-preparation">Model Preparation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#project-information-skp">Project Information - SKP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#model-preparation-skp">Model Preparation - SKP</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#exporting-a-walk-file">Exporting a .WALK File</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#export-settings">Export Settings</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#faq">FAQ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#faq-skp">FAQ - SKP</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="obj.html">OBJ Export</a></li>
 </ul>
 </li>
 </ul>
 <p class="caption"><span class="caption-text">Using LUX Walker:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html">Start Screen:</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html#step-into-vr">Step Into VR</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html#share-a-world-or-project">Share a World or Project</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html#step-into-vr">Step into VR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html#share-a-walk-project">Share a .WALK Project</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Support:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../help.html">Need Help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html#troubleshooting">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html#need-help">Need Help?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../license.html">EULA</a></li>
 </ul>
 
@@ -186,16 +193,35 @@
 <img alt="../_images/SKP_EXP_3.png" src="../_images/SKP_EXP_3.png" />
 <p>Our Sketchup plugin is compatible with Sketchup 2015-2019.
 You can export from any other version using the OBJ Export Method</p>
-<div class="section" id="project-information">
-<h2>Project Information<a class="headerlink" href="#project-information" title="Permalink to this headline">¶</a></h2>
-<p>Your project coordinates will be imported as well as any views you have set up.</p>
+<div class="section" id="project-information-skp">
+<h2>Project Information - SKP<a class="headerlink" href="#project-information-skp" title="Permalink to this headline">¶</a></h2>
+<p>Your project coordinates will be exported to LUX Walker as well as any views you have set up.</p>
+<img alt="../_images/geolocate.jpg" src="../_images/geolocate.jpg" />
+<p>Go to Window &gt; Model Info &gt; Geo-location and click Add Location</p>
+<p>Ensure your project is orientated correctly in Sketchup if you want the correct context and shadows.</p>
 </div>
-<div class="section" id="model-preparation">
-<h2>Model Preparation<a class="headerlink" href="#model-preparation" title="Permalink to this headline">¶</a></h2>
-<p>The Exporter will export everything that is visible in the view. Please hide objects and layers that does not require exporting.</p>
+<div class="section" id="model-preparation-skp">
+<h2>Model Preparation - SKP<a class="headerlink" href="#model-preparation-skp" title="Permalink to this headline">¶</a></h2>
+<p>Please make sure your model is as clean as possible to ensure best performance.</p>
+<img alt="../_images/enabletoolbar.jpg" src="../_images/enabletoolbar.jpg" />
+<p>You can right click on the toolbar area to enable the LUX Walker toolset.</p>
+<p>Correct layer management in Sketchup will ensure less issues down the road.</p>
+<img alt="../_images/toolbar.jpg" src="../_images/toolbar.jpg" />
+<p>Included in the toolset is a simple button to setup your project with correct layers.</p>
+<p>You can then Right click on a group or component and Click LUX WALKER - Put On Layer &gt; LAYER</p>
+<img alt="../_images/layers.jpg" src="../_images/layers.jpg" />
+<p>This will put all object and geometry nested in the group or component onto the selected LAYER.</p>
+<p>LUX Walker includes a library of items and entourage.</p>
+<img alt="../_images/WireFrame1.png" src="../_images/WireFrame1.png" />
+<p>Please disable items, groups, components and layers you do not need to see in VR.
+It is sometimes best to purge your file before export.  - Make a backup before purging.</p>
+<blockquote>
+<div><p>We recommend running <a class="reference external" href="https://extensions.sketchup.com/en/content/cleanup%C2%B3">Cleanup 3 for Sketchup</a>. to clean unnecessary items. It has built in purge functionality.</p>
+</div></blockquote>
 </div>
 <div class="section" id="exporting-a-walk-file">
 <h2>Exporting a .WALK File<a class="headerlink" href="#exporting-a-walk-file" title="Permalink to this headline">¶</a></h2>
+<p>The Exporter will export everything that is visible in the view. Please hide objects and layers that does not require exporting.</p>
 <ol class="arabic simple">
 <li><p>Open a Sketchup project that you wish to export for VR Walkthrough.</p></li>
 <li><p>Enable the Tenebris Lab Plugins to export to LUX Walker.</p></li>
@@ -218,15 +244,22 @@ You can export from any other version using the OBJ Export Method</p>
 <img alt="../_images/SKP_EXP_3.png" src="../_images/SKP_EXP_3.png" />
 <p>SketchUp to VR file</p>
 <p>Enjoy your WALK</p>
-<p>XXXXXX</p>
+<p>.</p>
 </div>
-<div class="section" id="export-settings">
-<h2>Export Settings<a class="headerlink" href="#export-settings" title="Permalink to this headline">¶</a></h2>
-<p>XXXXXX</p>
-</div>
-<div class="section" id="faq">
-<h2>FAQ<a class="headerlink" href="#faq" title="Permalink to this headline">¶</a></h2>
-<p>XXXXXX</p>
+<div class="section" id="faq-skp">
+<h2>FAQ - SKP<a class="headerlink" href="#faq-skp" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>It is taking forever to export my file:</p></li>
+</ol>
+<blockquote>
+<div><p>Sketchup does not like complex geometry. Please cleanup your model and removed unused items. We recommend running <a class="reference external" href="https://extensions.sketchup.com/en/content/cleanup%C2%B3">Cleanup 3 for Sketchup</a>. to clean unnecessary items</p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>XXX:</p></li>
+</ol>
+<blockquote>
+<div><p>xxx</p>
+</div></blockquote>
 </div>
 </div>
 
@@ -238,10 +271,10 @@ You can export from any other version using the OBJ Export Method</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../1_using/index.html" class="btn btn-neutral float-right" title="Start Screen:" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="obj.html" class="btn btn-neutral float-right" title="OBJ Export" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="revit/index.html" class="btn btn-neutral float-left" title="Content Preparation:" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="rhino.html" class="btn btn-neutral float-left" title="Rhino .WALK Plugin" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

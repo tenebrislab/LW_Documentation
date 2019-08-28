@@ -1,0 +1,268 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>OBJ Export &mdash; LUX Walker 1.5.x.x documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Quick Start" href="../1_using/index.html" />
+    <link rel="prev" title="Sketchup .WALK Plugin" href="sketchup.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> LUX Walker
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">LUX Walker:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/about.html">Instant VR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/about.html#automated-workflow">Automated Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/about.html#easy-collaboration">Easy Collaboration</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html">Virtual Reality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html#installation">Installation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Exporting Projects:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Exporting to LUX Walker</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="3ds.html">3Ds Max Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="blender.html">Blender .WALK Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="revit.html">Revit  .WALK Addin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rhino.html">Rhino .WALK Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sketchup.html">Sketchup .WALK Plugin</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">OBJ Export</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#project-information-obj">Project Information - OBJ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#model-preparation-obj">Model Preparation - OBJ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creating-a-walk-file">Creating a .WALK File</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Using LUX Walker:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html#step-into-vr">Step into VR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../1_using/index.html#share-a-walk-project">Share a .WALK Project</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Support:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../help.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html#troubleshooting">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html#need-help">Need Help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../license.html">EULA</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">LUX Walker</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Exporting to LUX Walker</a> &raquo;</li>
+        
+      <li>OBJ Export</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/0_export/obj.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="obj-export">
+<h1>OBJ Export<a class="headerlink" href="#obj-export" title="Permalink to this headline">¶</a></h1>
+<p>LUX Walker is compatible with .OBJ files exported from your favorite 3D modeling software.</p>
+<div class="section" id="project-information-obj">
+<h2>Project Information - OBJ<a class="headerlink" href="#project-information-obj" title="Permalink to this headline">¶</a></h2>
+<p>Unfortunately we are not yet able to insert gps information into your file.</p>
+</div>
+<div class="section" id="model-preparation-obj">
+<h2>Model Preparation - OBJ<a class="headerlink" href="#model-preparation-obj" title="Permalink to this headline">¶</a></h2>
+<p>Please make sure your model is as clean as possible to ensure best performance.</p>
+</div>
+<div class="section" id="creating-a-walk-file">
+<h2>Creating a .WALK File<a class="headerlink" href="#creating-a-walk-file" title="Permalink to this headline">¶</a></h2>
+<p>Step 1: Create a folder and export your .OBJ to this folder. Make sure all textures are in a folder.</p>
+<img alt="../_images/Step_1_Folder.jpg" src="../_images/Step_1_Folder.jpg" />
+<p>Step 2: Open “LUX Home” click on the + icon</p>
+<img alt="../_images/Step_2_FolderToHome.jpg" src="../_images/Step_2_FolderToHome.jpg" />
+<p>Step 3: Drag the folder containing the .OBJ to LUX Home.</p>
+<img alt="../_images/Step_3_Drag.jpg" src="../_images/Step_3_Drag.jpg" />
+<p>Step 4: A .WALK file will be generated next to your export folder.</p>
+<img alt="../_images/Step_4_WALK.jpg" src="../_images/Step_4_WALK.jpg" />
+<ol class="arabic simple" start="3">
+<li><p>Open the .WALK file in LUX Walker by double clicking or selecting in LUX Walker.</p></li>
+</ol>
+<p>Enjoy your WALK</p>
+<p>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../1_using/index.html" class="btn btn-neutral float-right" title="Quick Start" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="sketchup.html" class="btn btn-neutral float-left" title="Sketchup .WALK Plugin" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Tenebris Lab (PTY) Ltd
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

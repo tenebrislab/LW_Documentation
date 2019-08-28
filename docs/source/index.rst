@@ -1,7 +1,20 @@
-Welcome to LUX Walker's documentation!
+Welcome to the documentation for
 ======================================
 
-Description Text::
+.. image:: 00_extra/images/Logo.png
+
+.. image:: 00_extra/images/LW_Opener.jpg
+
+About:
+
+  Experience Architecture in Virtual Reality.
+  `LUX WALKER <https://www.luxwalker.com/>`_ is an interactive PC and VR application that instantly converts your 3D model into a fully immersive 3D true-to-life scale model.
+  Compatible with most 3D modelling software, one-click opens your 3D model as a .WALK file in LUX Walker.
+
+  `LUX WALKER <https://www.luxwalker.com/>`_ has been developed as a real-time visualization tool to improve workflow and reduce communication errors.
+  Join multiple people in a virtual building, collaborate with your team members throughout design development and present your final design to clients, from anywhere in the world.
+
+Guide Information::
 
     This guide aims to get you up and running using LUX Walker.
 
@@ -15,7 +28,7 @@ Description Text::
 System Requirements and Installation
 ======================================
 
-More Info::
+More Info:
 
     See below for more system requirements and Installation instructions.
 
@@ -31,12 +44,12 @@ More Info::
 Exporting
 ======================================
 
-More Info::
+More Info:
 
     See below for more information exporting from your favorite 3D tool.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Exporting Projects:
 
    0_export/index
@@ -45,7 +58,7 @@ More Info::
 
 Using LUX Walker
 ======================================
-More Info::
+More Info:
 
     See below for more information on using LUX Walker.
 
