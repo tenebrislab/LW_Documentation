@@ -9,7 +9,8 @@ Project Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Your project location and project North will be imported along with any selected cameras.
-Please set this up by going to.....
+
+
 
 
 

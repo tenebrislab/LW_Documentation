@@ -1,4 +1,4 @@
-Welcome to the documentation for
+Documentation for
 ======================================
 
 .. image:: 00_extra/images/Logo.png
