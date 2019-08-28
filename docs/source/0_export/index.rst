@@ -3,26 +3,17 @@ Exporting to LUX Walker
 Plugins for various 3D tools export a .WALK file which can be opened in LUX Walker.
 See below for more information using your favorite tool.
 
-Revit
-^^^^^^^^^
-
-XXXXXX
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Exporting from Revit
 
-Sketchup
-^^^^^^^^^
-
-XXXXXX
-
-
-Rhino
-^^^^^^^^^^
-
-XXXXXX
+   revit
 
 
-Archicad
-^^^^^^^^^
+.. toctree::
+  :maxdepth: 2
+  :caption: Exporting from Sketchup
 
-XXXXXX
+  sketchup

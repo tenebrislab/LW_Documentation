@@ -1,4 +1,4 @@
-End User License Agreement  (EULA)
+EULA
 ======================================
 
 
