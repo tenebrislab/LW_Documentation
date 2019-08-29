@@ -81,11 +81,34 @@
             
             
               <p class="caption"><span class="caption-text">LUX Walker:</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../extra/about.html">Instant VR</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../extra/about.html#automated-workflow">Automated Workflow</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../extra/about.html#easy-collaboration">Easy Collaboration</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../extra/about.html#typical-workflow">Typical Workflow</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../extra/about.html#typical-workflow">Typical Workflow</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../../extra/about.html#export-your-3d-model">Export your 3D Model</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">Exporting to LUX Walker</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../3ds.html">3Ds Max Export</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../blender.html">Blender .WALK Plugin</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../revit.html">Revit  .WALK Addin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../rhino.html">Rhino .WALK Plugin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../sketchup.html">Sketchup .WALK Plugin</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../obj.html">OBJ Export</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#run-lux-walker">Run LUX Walker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#fix-any-materials">Fix any Materials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#highlight-any-issues">Highlight any issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#add-context-or-panorama">Add Context or Panorama</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#add-vegetation-and-detail-items">Add Vegetation and detail items.</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#save-your-file">Save your File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#capture-some-images">Capture some Images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#relink-a-new-export">Relink a new Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../extra/about.html#share-a-file">Share a File</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption"><span class="caption-text">Getting Started:</span></p>
 <ul>
@@ -102,6 +125,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../revit.html#project-information">Project Information</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../revit.html#model-preparation">Model Preparation</a><ul class="current">
 <li class="toctree-l4 current"><a class="current reference internal" href="#">Content Preparation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#optimize-your-model">Optimize your model</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#common-issues">Common Issues</a></li>
 </ul>
 </li>
@@ -206,7 +230,7 @@
 <h1>Content Preparation<a class="headerlink" href="#content-preparation" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="location-and-model-info">
 <h2>Location and Model Info<a class="headerlink" href="#location-and-model-info" title="Permalink to this headline">¶</a></h2>
-<img alt="export\revit\images/LOCATION.png" src="export\revit\images/LOCATION.png" />
+<img alt="../../_images/location.jpg" src="../../_images/location.jpg" />
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Lux Walker imports your location information from your Revit file. This allows for correct lighting and seasonal conditions for your project.</p>
@@ -228,17 +252,18 @@
 <p>The corresponding Latitude, Longitude, and Time Zone values are displayed.</p>
 <p>Exact location. Enter values for Latitude and Longitude.</p>
 <p>Internet Mapping Service: For Project Address, enter the street address, city and state, or latitude and longitude of the project, and click Search.</p>
-<img alt="../../_images/map.png" src="../../_images/map.png" />
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Please ensure your True North is correctly set up so that sun angles are correct in LUX Walker.</p>
 </div>
+<img alt="../../_images/truenorth.jpg" src="../../_images/truenorth.jpg" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 </div>
+</div>
 <div class="section" id="optimize-your-model">
-<h2>Optimize your model<a class="headerlink" href="#optimize-your-model" title="Permalink to this headline">¶</a></h2>
+<h1>Optimize your model<a class="headerlink" href="#optimize-your-model" title="Permalink to this headline">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>When exporting to VR keep in mind that it needs to run as fast as possible so that the user does not experience motion sickness.
@@ -257,7 +282,7 @@ Too many digital lines and geometries will slow down the project.</p>
 <div class="line"><br /></div>
 </div>
 <div class="section" id="unnecessary-elements-and-categories">
-<h3>Unnecessary Elements and Categories<a class="headerlink" href="#unnecessary-elements-and-categories" title="Permalink to this headline">¶</a></h3>
+<h2>Unnecessary Elements and Categories<a class="headerlink" href="#unnecessary-elements-and-categories" title="Permalink to this headline">¶</a></h2>
 <p>Each category in Revit is exported as a Layer to LUX Walker.
 LUX Walker includes a library of items and entourage.</p>
 <div class="admonition note">
@@ -269,7 +294,6 @@ Can also be problematic, and can be replaced with LUX Walker items.</p>
 </div>
 <div class="line-block">
 <div class="line"><br /></div>
-</div>
 </div>
 </div>
 <div class="section" id="view-distance">
@@ -284,9 +308,12 @@ Keep your projects and site extents as small as possible.</p>
 <p class="admonition-title">Warning</p>
 <p>If you do not section box do this you might have problems finding your project when LUX Walker has loaded.</p>
 </div>
+<img alt="../../_images/siteplan_incorrect.jpg" src="../../_images/siteplan_incorrect.jpg" />
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>PROJECT ORIGIN JOZI!!!!!</p>
+<p>Please ensure that your survey points and base points are correctly set up. If they are too far apart your file will appear empty.
+In the above example the survey point was thousands of units away from the model center.</p>
+<img alt="../../_images/siteplan_correct.jpg" src="../../_images/siteplan_correct.jpg" />
 </div>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -306,20 +333,20 @@ Keep your projects and site extents as small as possible.</p>
 <div class="section" id="section-box-and-model-variations">
 <h3>Section Box and Model Variations<a class="headerlink" href="#section-box-and-model-variations" title="Permalink to this headline">¶</a></h3>
 <p>You can the create a section box to crop your export. LUX Walker will download a large terrain around your project so use Revit topography sparingly or crop as close to project as needed.</p>
-<img alt="export\revit\images/SECTIONBOX.png" src="export\revit\images/SECTIONBOX.png" />
+<img alt="../../_images/sectionbox.jpg" src="../../_images/sectionbox.jpg" />
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>You can enable and disable linked files in your layer tool in LUX Walker. You can use this to your advantage by:
 Linking in two different variations of a project into a new Revit Project and switching between them using the layer panel.</p>
 </div>
-<img alt="export\revit\images/LAYERS.png" src="export\revit\images/LAYERS.png" />
+<img alt="../../_images/visibility.jpg" src="../../_images/visibility.jpg" />
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 </div>
 <div class="section" id="large-projects">
 <h3>Large Projects<a class="headerlink" href="#large-projects" title="Permalink to this headline">¶</a></h3>
-<p>When dealing with large projects with may units/structures/spaces to show.</p>
+<p>When dealing with large projects with may units/structures/spaces to show export the project as different files.</p>
 <img alt="../../_images/largeprojects.jpg" src="../../_images/largeprojects.jpg" />
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -361,8 +388,16 @@ Linking in two different variations of a project into a new Revit Project and sw
 </div>
 <div class="section" id="material-transfer">
 <h3>Material Transfer<a class="headerlink" href="#material-transfer" title="Permalink to this headline">¶</a></h3>
-<p>Render Appearance Screenshot and description.
-JOZI!!!!!</p>
+<img alt="../../_images/materialbrowser.jpg" src="../../_images/materialbrowser.jpg" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Textures assigned to the Generic Slot in Revit will be exported along with color and transparency information.</p>
+</div>
+<img alt="../../_images/renderappearance.jpg" src="../../_images/renderappearance.jpg" />
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If Use Render appearance is unchecked Color will be exported from here.</p>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <dl class="simple">

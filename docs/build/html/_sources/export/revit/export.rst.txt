@@ -29,12 +29,12 @@ Exporting Steps
 
 Enjoy your WALK
 
-
+|
 
 Export Window Settings
 =====================================
 
-.. image:: images/RVT_Window.png
+.. image:: images/exporter.jpg
 
 Add Date:
 -------------------------
@@ -74,7 +74,7 @@ If LUX Walker is installed on your PC this will open the file after exporting.
 
 
 
-.
+|
 
 
 Versioning
@@ -94,15 +94,16 @@ In LUX Walker use the layer tool to disable and enable design options.
 
 
 
-.
+|
 
 
  
 Optimize
 =====================================
 
+.. note::
+ LUX Walker can optimize your export by lowering the value in the Export Quality slider.
 
-LUX Walker can optimize your export by lowering the value in the Export Quality slider.
 This reduces geometry count which in turn speeds up LUX Walker.
 It has some side effects such as reducing the edges of round objects making them appear more geometric in shape.
 If you absolutely need to see something at the highest detail, export a “section box” of only the items/room in question and increase the slider to the maximum value.
@@ -114,4 +115,4 @@ This adds the benefit of limiting discussion around a specific part of a project
 
 
 
-.
+|

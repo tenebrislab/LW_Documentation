@@ -64,4 +64,4 @@ Step 4: A .WALK file will be generated next to your export folder.
 Enjoy your WALK
 
 
-.
+|

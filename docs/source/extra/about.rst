@@ -117,9 +117,13 @@ VEGETATION AND ITEMS HERE
 Save your File
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. image:: /using/images/lw_save.jpg
+
 .. note::
  Closing LUX Walker will ask you if you want to Save your File.
   You can also save from the Menu Panel in VR or by clicking the Home Button on the desktop using the Mouse.
+
+.. image:: /using/images/lw_save_alt.jpg
 
 
 Capture some Images

@@ -4,7 +4,7 @@ Content Preparation
 Location and Model Info
 ---------------------------------------------
 
-.. image:: images/LOCATION.png
+.. image:: images/location.jpg
 
 .. note::
  Lux Walker imports your location information from your Revit file. This allows for correct lighting and seasonal conditions for your project.
@@ -25,15 +25,16 @@ Exact location. Enter values for Latitude and Longitude.
 
 Internet Mapping Service: For Project Address, enter the street address, city and state, or latitude and longitude of the project, and click Search.
 
-.. image:: images/map.png
 
 .. warning::
  Please ensure your True North is correctly set up so that sun angles are correct in LUX Walker.
 
+.. image:: images/truenorth.jpg
+
 |
  
 Optimize your model
----------------------------------------------
+===========================================
 .. note::
  When exporting to VR keep in mind that it needs to run as fast as possible so that the user does not experience motion sickness.
  Too many digital lines and geometries will slow down the project.
@@ -49,7 +50,7 @@ Optimize your model
 |
 
 Unnecessary Elements and Categories
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------
 
 Each category in Revit is exported as a Layer to LUX Walker.
 LUX Walker includes a library of items and entourage.
@@ -75,8 +76,14 @@ Keep your projects and site extents as small as possible.
 .. warning::
  If you do not section box do this you might have problems finding your project when LUX Walker has loaded.
 
+.. image:: images/siteplan_incorrect.jpg
+
 .. warning::
- PROJECT ORIGIN JOZI!!!!!
+ Please ensure that your survey points and base points are correctly set up. If they are too far apart your file will appear empty.
+ In the above example the survey point was thousands of units away from the model center.
+
+ .. image:: images/siteplan_correct.jpg
+
 
 |
 
@@ -98,21 +105,21 @@ Section Box and Model Variations
 
 You can the create a section box to crop your export. LUX Walker will download a large terrain around your project so use Revit topography sparingly or crop as close to project as needed.
 
-.. image:: images/SECTIONBOX.png
+.. image:: images/sectionbox.jpg
 
 .. note::
  You can enable and disable linked files in your layer tool in LUX Walker. You can use this to your advantage by:
  Linking in two different variations of a project into a new Revit Project and switching between them using the layer panel.
 
 
-.. image:: images/LAYERS.png
+.. image:: images/visibility.jpg
 
 |
 
 Large Projects
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When dealing with large projects with may units/structures/spaces to show.
+When dealing with large projects with may units/structures/spaces to show export the project as different files.
 
 .. image:: images/largeprojects.jpg
 
@@ -143,8 +150,19 @@ Items and Vegetation
 Material Transfer
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Render Appearance Screenshot and description.
-JOZI!!!!!
+
+.. image:: images/materialbrowser.jpg
+
+.. note::
+ Textures assigned to the Generic Slot in Revit will be exported along with color and transparency information.
+
+
+.. image:: images/renderappearance.jpg
+
+.. warning::
+ If Use Render appearance is unchecked Color will be exported from here.
+
+
 
 .. note::
  LUX Walker will automatically convert your Revit materials to something more realistic.
@@ -171,4 +189,4 @@ Materials are not correct in LUX Walker:
  Ensure the :ref:`material settings<Material Transfer>` are correct in Revit. Materials with fade and tint will export these settings to LUX Walker.
 
 .. note::
- If you have told Revit to use render appearance then the render appearance will be exported to LUX Walker. Please also inspect your fade and color assignments as they also carry over. 
+ If you have told Revit to use render appearance then the render appearance will be exported to LUX Walker. Please also inspect your fade and color assignments as they also carry over.
