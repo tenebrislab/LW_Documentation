@@ -33,6 +33,8 @@ Step into VR
 Included from the LUX Walker home screen is a Tutorial level which will get you familiar with the LUX Walker interface and using its tools in VR.
 For your convenience the tools and features are listed below
 
+|
+
 Mini Model
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -46,6 +48,7 @@ When in Mini Model you can squeeze both grip buttons and move both controllers a
 
 Use one grip and controller to move the model.
 
+|
 
 Time Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +61,7 @@ Time Tool
 4. Tabs can be used to select a season.
 5. Displays the geolocation in the world.
 
-
+|
 
 Layer Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -69,13 +72,21 @@ Layer Tool
 2. Manage Layers Window — Access all the layers and show and hide them by clicking on the yellow box on the left hand side of the layer.
 3. Show/Hide all layers — The top icon activates all layers, while the bottom icon de-activates the layers.
 
+|
 
 Environment Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 XXXXXX
 
+|
 
+Panorama Tool
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+XXXXXX
+
+|
 
 Render Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -94,6 +105,7 @@ Render Tool
 10. Filter Toggle — Toggles if the filter is active or not.
 11. Filter List — Shows a list of the filters.
 
+|
 
 Placement Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -108,12 +120,14 @@ Placement Tool
 6. Toggles random scale on/off for the current selected object.
 7. Toggles between placement and deletion of placed objects.
 
+|
 
 Material Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 XXXXXX
 
+|
 
 Annotation Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -127,7 +141,7 @@ Annotation Tool
 4. Layers — Select a layer to start making annotations on that layer.
 5. Assign and draw modes — Select the Assign icon to assign drawings to the selected layer and switch back to the draw mode to create drawings on the currently selected layer.
 
-
+|
 
 Measure Tool
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -143,11 +157,15 @@ Measure Tool
 6. Displays the distance between two surfaces.
 
 
+|
+
 
 Share a .WALK Project
 ======================================
 
 As long as another user has LUX Walker you can share a file with them and step into the same world.
+
+|
 
 How To Multi-user LUX Walker walkthrough:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -5,6 +5,19 @@ Documentation for
 
 .. image:: 00_extra/images/LW_Opener.jpg
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/BDFOwY4lOOM?rel=0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+|
+
+Guide Information::
+
+    This guide aims to get you up and running using LUX Walker.
+
+
 About:
 
   Experience Architecture in Virtual Reality.
@@ -14,13 +27,10 @@ About:
   `LUX WALKER <https://www.luxwalker.com/>`_ has been developed as a real-time visualization tool to improve workflow and reduce communication errors.
   Join multiple people in a virtual building, collaborate with your team members throughout design development and present your final design to clients, from anywhere in the world.
 
-Guide Information::
-
-    This guide aims to get you up and running using LUX Walker.
 
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: LUX Walker:
 
    00_extra/about
@@ -69,6 +79,11 @@ More Info:
   1_using/index
 
 
+.. toctree::
+  :maxdepth: 3
+  :caption: LUX Home:
+
+  1_luxhome/index
 
 
 
@@ -84,5 +99,5 @@ Contact and Support
    :maxdepth: 3
    :caption: Support:
 
-   help
-   license
+   00_extra/help
+   00_extra/license
