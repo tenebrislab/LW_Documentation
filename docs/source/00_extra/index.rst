@@ -3,7 +3,8 @@ Virtual Reality
 
 .. image:: images/VRModes.jpg
 
-Our software is aimed at users with a VR Headset and motion controllers. It is compatible with both Oculus and Steam VR Devices.
+.. note::
+ Our software is aimed at users with a VR Headset and motion controllers. It is compatible with both Oculus and Steam VR Devices.
 
 
 Choosing your VR Headset
@@ -50,13 +51,15 @@ Running the Oculus Rift requires a computer with powerful graphics capabilities.
 
 System Requirements
 ======================================
-
-Our software is aimed at users with a VR Headset and motion controllers. It is compatible with both Oculus and Steam VR Devices.
+.. note::
+ Our software is aimed at users with a VR Headset and motion controllers. It is compatible with both Oculus and Steam VR Devices.
 
 
 Virtual Reality requires a high-end computer aimed at rendering 3D computer graphics as fast as possible.
-If at anytime the experience is slow it will cause motion sickness and an uncomfortable experience in VR.
-Please note even the most powerful machine will not run a badly optimized 3D model. Please follow our modeling guidelines outlined in the documentation.
+ If at anytime the experience is slow it will cause motion sickness and an uncomfortable experience in VR.
+
+.. warning::
+ Please note even the most powerful machine will not run a badly optimized 3D model. Please follow our modeling guidelines outlined in the documentation.
 
 Both Oculus and Valve have recommended system requirements that will work with many smaller projects.
 For larger projects with more materials and for an overall better experience the requirements are a little higher.
@@ -67,7 +70,7 @@ For more information see budget section below on choosing the right pc and its i
 
 Minimum Requirements:
 ------------------------------------------
-
+.. note::
   * OS 64-bit Windows 7, Windows 8.1, Windows 10
   * PROCESSOR Intel i5 5th Gen (or equivalent)
   * MEMORY 8GB
@@ -77,7 +80,7 @@ Minimum Requirements:
 
 Recommended Requirements:
 ------------------------------------------------
-
+.. note::
   * OS 64-bit Windows 7, Windows 8.1, Windows 10
   * PROCESSOR Intel i7 6th Gen (or equivalent)
   * MEMORY 16GB

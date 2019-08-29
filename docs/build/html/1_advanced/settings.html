@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>OBJ Export &mdash; LUX Walker 1.5.x.x documentation</title>
+  <title>LUX Walker Settings &mdash; LUX Walker 1.5.x.x documentation</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Quick Start" href="../1_using/index.html" />
-    <link rel="prev" title="Sketchup .WALK Plugin" href="sketchup.html" /> 
+    <link rel="next" title="LUX Home" href="lhome.html" />
+    <link rel="prev" title="Virtual Reality" href="../00_extra/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -94,21 +94,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../00_extra/index.html#installation">Installation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Exporting Projects:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">Exporting to LUX Walker</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="3ds.html">3Ds Max Export</a></li>
-<li class="toctree-l2"><a class="reference internal" href="blender.html">Blender .WALK Plugin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="revit.html">Revit  .WALK Addin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="rhino.html">Rhino .WALK Plugin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="sketchup.html">Sketchup .WALK Plugin</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">OBJ Export</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#project-information-obj">Project Information - OBJ</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#model-preparation-obj">Model Preparation - OBJ</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#creating-a-walk-file">Creating a .WALK File</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../0_export/index.html">Exporting to LUX Walker</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Using LUX Walker:</span></p>
 <ul>
@@ -117,8 +104,15 @@
 <li class="toctree-l1"><a class="reference internal" href="../1_using/index.html#share-a-walk-project">Share a .WALK Project</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Advanced Features:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../1_luxhome/index.html">LUX Home</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">LUX Walker Settings</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#settings-panel">Settings Panel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quality-options">Quality Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#panorama">Panorama</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#multiplayer">Multiplayer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="lhome.html">LUX Home</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Support:</span></p>
 <ul>
@@ -171,17 +165,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="../00_extra/about.html">Instant VR</a> &raquo;</li>
-        
-          <li><a href="index.html">Exporting to LUX Walker</a> &raquo;</li>
-        
-      <li>OBJ Export</li>
+      <li>LUX Walker Settings</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/0_export/obj.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/1_advanced/settings.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -194,32 +184,86 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="obj-export">
-<h1>OBJ Export<a class="headerlink" href="#obj-export" title="Permalink to this headline">¶</a></h1>
-<p>LUX Walker is compatible with .OBJ files exported from your favorite 3D modeling software.</p>
-<div class="section" id="project-information-obj">
-<h2>Project Information - OBJ<a class="headerlink" href="#project-information-obj" title="Permalink to this headline">¶</a></h2>
-<p>Unfortunately we are not yet able to insert gps information into your file.</p>
+  <div class="section" id="lux-walker-settings">
+<h1>LUX Walker Settings<a class="headerlink" href="#lux-walker-settings" title="Permalink to this headline">¶</a></h1>
+<p>Some settings are only accessible using the mouse on the desktop.</p>
+<div class="line-block">
+<div class="line"><br /></div>
 </div>
-<div class="section" id="model-preparation-obj">
-<h2>Model Preparation - OBJ<a class="headerlink" href="#model-preparation-obj" title="Permalink to this headline">¶</a></h2>
-<p>Please make sure your model is as clean as possible to ensure best performance.</p>
+<div class="section" id="settings-panel">
+<h2>Settings Panel<a class="headerlink" href="#settings-panel" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/desktopmenuclosed.jpg" src="../_images/desktopmenuclosed.jpg" />
+<img alt="../_images/desktopmenuopen.jpg" src="../_images/desktopmenuopen.jpg" />
+<img alt="../_images/menuadvanced.jpg" src="../_images/menuadvanced.jpg" />
+<div class="line-block">
+<div class="line"><br /></div>
 </div>
-<div class="section" id="creating-a-walk-file">
-<h2>Creating a .WALK File<a class="headerlink" href="#creating-a-walk-file" title="Permalink to this headline">¶</a></h2>
-<p>Step 1: Create a folder and export your .OBJ to this folder. Make sure all textures are in a folder.</p>
-<img alt="../_images/Step_1_Folder.jpg" src="../_images/Step_1_Folder.jpg" />
-<p>Step 2: Open “LUX Home” click on the + icon</p>
-<img alt="../_images/Step_2_FolderToHome.jpg" src="../_images/Step_2_FolderToHome.jpg" />
-<p>Step 3: Drag the folder containing the .OBJ to LUX Home.</p>
-<img alt="../_images/Step_3_Drag.jpg" src="../_images/Step_3_Drag.jpg" />
-<p>Step 4: A .WALK file will be generated next to your export folder.</p>
-<img alt="../_images/Step_4_WALK.jpg" src="../_images/Step_4_WALK.jpg" />
-<ol class="arabic simple" start="3">
-<li><p>Open the .WALK file in LUX Walker by double clicking or selecting in LUX Walker.</p></li>
+</div>
+<div class="section" id="quality-options">
+<h2>Quality Options<a class="headerlink" href="#quality-options" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Quality Settings</p></li>
 </ol>
-<p>Enjoy your WALK</p>
-<p>.</p>
+<blockquote>
+<div><p>Graphics Quality - Increases sharpness of objects at an increase to performance cost.
+Vegetation Quality - Increases vegetation rendering distance at an increase to performance cost.
+Advanced settings</p>
+<blockquote>
+<div><p>Render Scale - Manually Increase sharpness of objects at an increase to performance cost.
+Shadow Quality - Manually Increase shadow quality at an increase to performance cost.</p>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Lighting Settings</p></li>
+</ol>
+<blockquote>
+<div><p>Global Light - Increase or decrease the environmental light contribution in the scene.</p>
+<blockquote>
+<div><p>Advanced settings</p>
+<blockquote>
+<div><p>Sampling Size - Increases the lighting contribution size at an increase to performance cost.
+Sampling Size - Increases the lighting area that gets realistic lighting at an increase to performance cost.
+Lighting Samples - Increases lighting quality at an increase to performance cost.</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Render Settings</p></li>
+</ol>
+<blockquote>
+<div><p>Screenshot Size - Size of the Images captured by the spectator render camera.
+Render Mode - Quality of the Render Mode spectator camera.</p>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="panorama">
+<h2>Panorama<a class="headerlink" href="#panorama" title="Permalink to this headline">¶</a></h2>
+<p>LUX Walker allows you to load a panorama as onto a cylinder that renders behind other objects.</p>
+<ol class="arabic simple">
+<li><p>Offset - Height offset from Horizon</p></li>
+<li><p>Radius - Radius of the Cylinder that holds the panorama.</p></li>
+<li><p>Rotation - Rotation of the Cylinder that holds the panorama.</p></li>
+<li><p>Scale - Scale of the Cylinder height that holds the panorama.</p></li>
+<li><p>Load Image - Load Panorama from hard drive.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Combinations of Radius and Scale will allow you to get correct aspect ratios.</p>
+<p>Removing the background in an image editing program and saving as a .PNG will blend the panorama with the background.</p>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="multiplayer">
+<h2>Multiplayer<a class="headerlink" href="#multiplayer" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Lock Teleport - Sync teleport across networked users</p></li>
+<li><p>Lock Time - Sync time across networked users</p></li>
+<li><p>Room ID - Room information</p></li>
+</ol>
 </div>
 </div>
 
@@ -231,10 +275,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../1_using/index.html" class="btn btn-neutral float-right" title="Quick Start" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="lhome.html" class="btn btn-neutral float-right" title="LUX Home" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="sketchup.html" class="btn btn-neutral float-left" title="Sketchup .WALK Plugin" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../00_extra/index.html" class="btn btn-neutral float-left" title="Virtual Reality" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

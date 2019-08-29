@@ -83,7 +83,8 @@ More Info:
   :maxdepth: 3
   :caption: Advanced Features:
 
-  1_luxhome/index
+  1_advanced/settings
+  1_advanced/lhome
 
 
 

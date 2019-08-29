@@ -8,7 +8,8 @@ Our Revit plugin is compatible with Revit 2018-2020 and makes exporting your pro
 Project Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Your project location and project North will be imported along with any selected cameras.
+.. note::
+ Your project location and project North will be imported along with any selected cameras.
 
 
 
@@ -17,8 +18,8 @@ Your project location and project North will be imported along with any selected
 Model Preparation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-Please make sure your model is as clean as possible to ensure best performance.
+.. note::
+ Please make sure your model is as clean as possible to ensure best performance.
 
 .. toctree::
    :maxdepth: 2
@@ -42,14 +43,14 @@ The Exporter will export anything that is visible in the view. Please disable an
 FAQ - Revit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. note::
+ LUX Walker is slow:
 
-LUX Walker is slow:
+ :ref:`Reduce geometry quality using the quality slider<Export Window Settings>`.
+ and Remove unused details and objects from the export view.
 
-:ref:`Reduce geometry quality using the quality slider<Export Window Settings>`.
-Remove unused details and objects from the export view.
+.. note::
+ Material Transfer:
 
-
-Material Transfer:
-
-:ref:`Materials are not correct in LUX Walker<Material Transfer>`.
-Ensure the material settings are correct in Revit. Materials with fade and tint will export these settings to LUX Walker.
+ :ref:`Materials are not correct in LUX Walker<Material Transfer>`.
+ Ensure the material settings are correct in Revit. Materials with fade and tint will export these settings to LUX Walker.

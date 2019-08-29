@@ -14,7 +14,9 @@ Troubleshooting
 Network Related Issues
 -----------------------------------------
 
-LUX Walker requires that you open TCP port 843 for multiplayer networking.
+.. note::
+ LUX Walker requires that you open TCP port 843 for multiplayer networking.
+
 
 If you are experiencing any other issues you can try open the following ports.
 
