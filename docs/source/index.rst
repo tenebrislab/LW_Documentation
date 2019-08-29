@@ -1,9 +1,9 @@
 Documentation for
 ======================================
 
-.. image:: 00_extra/images/Logo.png
+.. image:: extra/images/Logo.png
 
-.. image:: 00_extra/images/LW_Opener.jpg
+.. image:: extra/images/LW_Opener.jpg
 
 .. raw:: html
 
@@ -33,7 +33,7 @@ About:
    :maxdepth: 2
    :caption: LUX Walker:
 
-   00_extra/about
+   extra/about
 
 System Requirements and Installation
 ======================================
@@ -46,7 +46,7 @@ More Info:
    :maxdepth: 3
    :caption: Getting Started:
 
-   00_extra/index
+   extra/index
 
 
 
@@ -62,7 +62,7 @@ More Info:
    :maxdepth: 2
    :caption: Exporting Projects:
 
-   0_export/index
+   export/index
 
 
 
@@ -76,15 +76,15 @@ More Info:
   :maxdepth: 3
   :caption: Using LUX Walker:
 
-  1_using/index
+  using/index
 
 
 .. toctree::
   :maxdepth: 3
   :caption: Advanced Features:
 
-  1_advanced/settings
-  1_advanced/lhome
+  advanced/settings
+  advanced/lhome
 
 
 
@@ -100,5 +100,5 @@ Contact and Support
    :maxdepth: 3
    :caption: Support:
 
-   00_extra/help
-   00_extra/license
+   extra/help
+   extra/license

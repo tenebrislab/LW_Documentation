@@ -1,0 +1,332 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Exporting Steps &mdash; LUX Walker 1.5.x.x documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Rhino .WALK Plugin" href="../rhino.html" />
+    <link rel="prev" title="Content Preparation" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> LUX Walker
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">LUX Walker:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/about.html">Instant VR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/about.html#automated-workflow">Automated Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/about.html#easy-collaboration">Easy Collaboration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/about.html#typical-workflow">Typical Workflow</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/index.html">Virtual Reality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/index.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/index.html#installation">Installation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Exporting Projects:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Exporting to LUX Walker</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../3ds.html">3Ds Max Export</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../blender.html">Blender .WALK Plugin</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../revit.html">Revit  .WALK Addin</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../revit.html#project-information">Project Information</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../revit.html#model-preparation">Model Preparation</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../revit.html#export-process">Export Process</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Exporting Steps</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#export-window-settings">Export Window Settings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#versioning">Versioning</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#optimize">Optimize</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../revit.html#faq-revit">FAQ - Revit</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../rhino.html">Rhino .WALK Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sketchup.html">Sketchup .WALK Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../obj.html">OBJ Export</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Using LUX Walker:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../using/index.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../using/index.html#step-into-vr">Step into VR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../using/index.html#share-a-walk-project">Share a .WALK Project</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Advanced Features:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/settings.html">LUX Walker Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../advanced/lhome.html">LUX Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Support:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/help.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/help.html#troubleshooting">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/help.html#need-help">Need Help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../extra/license.html">EULA</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">LUX Walker</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../extra/about.html">Instant VR</a> &raquo;</li>
+        
+          <li><a href="../index.html">Exporting to LUX Walker</a> &raquo;</li>
+        
+          <li><a href="../revit.html">Revit  .WALK Addin</a> &raquo;</li>
+        
+      <li>Exporting Steps</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/export/revit/export.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="exporting-steps">
+<h1>Exporting Steps<a class="headerlink" href="#exporting-steps" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li><p>Open a project in Revit that you wish to export for VR Walkthrough.</p></li>
+<li><p>Open The Default 3D View OR Choose an existing 3D View</p></li>
+<li><p>Select the Add-Ins tab inside of Revit.</p></li>
+</ol>
+<img alt="../../_images/RVT_EXP_0.png" src="../../_images/RVT_EXP_0.png" />
+<ol class="arabic simple" start="4">
+<li><p>Click the Export Lux Walker button on the Tenebris Lab section.</p></li>
+</ol>
+<img alt="../../_images/RVT_EXP_1.png" src="../../_images/RVT_EXP_1.png" />
+<ol class="arabic simple" start="5">
+<li><p>Click Change to change the location of the export.</p></li>
+</ol>
+<img alt="../../_images/RVT_EXP_2.png" src="../../_images/RVT_EXP_2.png" />
+<ol class="arabic simple" start="6">
+<li><p>Type in the File Name for your project, then click Export to start the export process.</p></li>
+</ol>
+<img alt="../../_images/RVT_EXP_3.png" src="../../_images/RVT_EXP_3.png" />
+<ol class="arabic simple" start="10">
+<li><p>Open the .WALK file in LUX Walker by double clicking or selecting in LUX Walker.</p></li>
+</ol>
+<img alt="../../_images/RVT_EXP_4.png" src="../../_images/RVT_EXP_4.png" />
+<p>Enjoy your WALK</p>
+</div>
+<div class="section" id="export-window-settings">
+<h1>Export Window Settings<a class="headerlink" href="#export-window-settings" title="Permalink to this headline">¶</a></h1>
+<img alt="../../_images/RVT_Window1.png" src="../../_images/RVT_Window1.png" />
+<div class="section" id="add-date">
+<h2>Add Date:<a class="headerlink" href="#add-date" title="Permalink to this headline">¶</a></h2>
+<p>Appends a date to your filename for easy versioning.</p>
+</div>
+<div class="section" id="export-quality">
+<h2>Export Quality<a class="headerlink" href="#export-quality" title="Permalink to this headline">¶</a></h2>
+<p>This limits the amount of geometry exported to LUX Walker.
+A value of 6 is generally good enough for VR. Higher values will mean LUX Walker will be slower.
+<a class="reference internal" href="#optimize"><span class="std std-ref">Optimize</span></a></p>
+</div>
+<div class="section" id="views-to-export">
+<h2>Views to Export<a class="headerlink" href="#views-to-export" title="Permalink to this headline">¶</a></h2>
+<p>This allows you to choose camera views to export to LUX Walker for quicker navigation in the Render tool.</p>
+</div>
+<div class="section" id="optimized-export">
+<h2>Optimized Export<a class="headerlink" href="#optimized-export" title="Permalink to this headline">¶</a></h2>
+<p>Optimizes your file. Might increase loading time, but greatly improves comfort in LUX Walker.
+Has been removed in newest exporter.</p>
+</div>
+<div class="section" id="run-in-lux-walker">
+<h2>Run in LUX Walker<a class="headerlink" href="#run-in-lux-walker" title="Permalink to this headline">¶</a></h2>
+<p>If LUX Walker is installed on your PC this will open the file after exporting.</p>
+<p>.</p>
+</div>
+</div>
+<div class="section" id="versioning">
+<h1>Versioning<a class="headerlink" href="#versioning" title="Permalink to this headline">¶</a></h1>
+<p>Export a new file or use the “Add Date” export option to create versions of a project.
+Please note: You cannot use multi user walk through mode with different versions of a project.</p>
+<div class="section" id="design-options">
+<h2>Design Options<a class="headerlink" href="#design-options" title="Permalink to this headline">¶</a></h2>
+<p>Create a new Master File. Link in Option 1 and Option 2.
+In LUX Walker use the layer tool to disable and enable design options.</p>
+<p>.</p>
+</div>
+</div>
+<div class="section" id="optimize">
+<h1>Optimize<a class="headerlink" href="#optimize" title="Permalink to this headline">¶</a></h1>
+<p>LUX Walker can optimize your export by lowering the value in the Export Quality slider.
+This reduces geometry count which in turn speeds up LUX Walker.
+It has some side effects such as reducing the edges of round objects making them appear more geometric in shape.
+If you absolutely need to see something at the highest detail, export a “section box” of only the items/room in question and increase the slider to the maximum value.</p>
+<p>For Large projects we recommend exporting the whole project at 5 or below, then exporting section boxes of areas within the project at a higher quality.</p>
+<p>This adds the benefit of limiting discussion around a specific part of a project and not getting lost in undeveloped areas.</p>
+<p>.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../rhino.html" class="btn btn-neutral float-right" title="Rhino .WALK Plugin" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Content Preparation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Tenebris Lab (PTY) Ltd
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

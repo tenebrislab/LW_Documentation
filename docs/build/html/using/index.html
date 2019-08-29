@@ -1,0 +1,440 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quick Start &mdash; LUX Walker 1.5.x.x documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Virtual Reality" href="../extra/index.html" />
+    <link rel="prev" title="OBJ Export" href="../export/obj.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> LUX Walker
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">LUX Walker:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../extra/about.html">Instant VR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/about.html#automated-workflow">Automated Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/about.html#easy-collaboration">Easy Collaboration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/about.html#typical-workflow">Typical Workflow</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../extra/index.html">Virtual Reality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/index.html#system-requirements">System Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/index.html#installation">Installation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Exporting Projects:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../export/index.html">Exporting to LUX Walker</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Using LUX Walker:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#home">Home</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-your-vr-controllers">Using your VR Controllers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#step-into-vr">Step into VR</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#mini-model">Mini Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#time-tool">Time Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#layer-tool">Layer Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#environment-tool">Environment Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#panorama-tool">Panorama Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#render-tool">Render Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#placement-tool">Placement Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#material-tool">Material Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#annotation-tool">Annotation Tool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#measure-tool">Measure Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#share-a-walk-project">Share a .WALK Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-to-multi-user-lux-walker-walkthrough">How To Multi-user LUX Walker walkthrough:</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Advanced Features:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/settings.html">LUX Walker Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../advanced/lhome.html">LUX Home</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Support:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../extra/help.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/help.html#troubleshooting">Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/help.html#need-help">Need Help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extra/license.html">EULA</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">LUX Walker</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../extra/about.html">Instant VR</a> &raquo;</li>
+        
+      <li>Quick Start</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/using/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="quick-start">
+<h1>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We recommend following the Tutorial available from the Home scene in LUX Walker.</p>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="home">
+<h2>Home<a class="headerlink" href="#home" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/home.jpg" src="../_images/home.jpg" />
+<ol class="arabic simple">
+<li><p>Select and choose project to load. (.WALK Files) – Opens file browser.</p></li>
+<li><p>Click to enable multi user experience. See Multiplayer settings below.</p></li>
+<li><p>Click to launch in VR.</p></li>
+</ol>
+<img alt="../_images/tutorial.jpg" src="../_images/tutorial.jpg" />
+<ol class="arabic simple" start="4">
+<li><p>Choose help to access tutorial and other options.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The Tutorial will guide you in using LUX Walker and its Menu, but will not expose you to all tools.</p>
+</div>
+</div>
+<div class="section" id="using-your-vr-controllers">
+<h2>Using your VR Controllers<a class="headerlink" href="#using-your-vr-controllers" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/Menu.jpg" src="../_images/Menu.jpg" />
+<p>LUX Walker offers an intuitive help system and menu panel. Review the tools and help features that can be found when using LUX Walker application.</p>
+</div>
+</div>
+<div class="section" id="step-into-vr">
+<h1>Step into VR<a class="headerlink" href="#step-into-vr" title="Permalink to this headline">¶</a></h1>
+<p>Included from the LUX Walker home scene is a Tutorial level which will get you familiar with the LUX Walker interface and using its tools in VR.
+For your convenience the tools and features are listed below</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="mini-model">
+<h2>Mini Model<a class="headerlink" href="#mini-model" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/LW_0_MiniModel.jpg" src="../_images/LW_0_MiniModel.jpg" />
+<p>View a scale model of your project. Teleport to any location on the map. Simply point and aim the controller at the desired location while holding down on the touchpad button.
+The teleport indicator will appear now release the button to teleport to that location.</p>
+<p>When in Mini Model you can squeeze both grip buttons and move both controllers apart to zoom in or move them together to zoom out. You can also rotate the model like this.</p>
+<p>Use one grip and controller to move the model.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="time-tool">
+<h2>Time Tool<a class="headerlink" href="#time-tool" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/LW_1_TimeTool.jpg" src="../_images/LW_1_TimeTool.jpg" />
+<ol class="arabic simple">
+<li><p>Time Tool Icon — Click on this icon to access the time tool and the settings for the time tool.</p></li>
+<li><p>Change the time of day with the suns correct geolocation. Drag the sliders handle icon left or right to change the time of day.</p></li>
+<li><p>Select a custom date from the calendar.</p></li>
+<li><p>Tabs can be used to select a season.</p></li>
+<li><p>Displays the geolocation in the world.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="layer-tool">
+<h2>Layer Tool<a class="headerlink" href="#layer-tool" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/LW_2_LayerTool.jpg" src="../_images/LW_2_LayerTool.jpg" />
+<ol class="arabic simple">
+<li><p>Layers Tool Icon — Click on this icon to access the layers for the project.</p></li>
+<li><p>Manage Layers Window — Access all the layers and show and hide them by clicking on the yellow box on the left hand side of the layer.</p></li>
+<li><p>Show/Hide all layers — The top icon activates all layers, while the bottom icon de-activates the layers.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="environment-tool">
+<h2>Environment Tool<a class="headerlink" href="#environment-tool" title="Permalink to this headline">¶</a></h2>
+<p>XXXXXX</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="panorama-tool">
+<h2>Panorama Tool<a class="headerlink" href="#panorama-tool" title="Permalink to this headline">¶</a></h2>
+<p>XXXXXX</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="render-tool">
+<h2>Render Tool<a class="headerlink" href="#render-tool" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/LW_4_RenderTool.jpg" src="../_images/LW_4_RenderTool.jpg" />
+<ol class="arabic simple">
+<li><p>Zoom — Use this slider to adjust how zoomed the view for your render is. Alternatively, use the touchpad in your non-laser hand to zoom in and out.</p></li>
+<li><p>Time of day — Slide to change the time of day.</p></li>
+<li><p>Presets — Contains a list of your preset camera settings.</p></li>
+<li><p>Saturation/Contrast and Temperature/Exposure — Move this icon across your viewer to adjust the saturation/contrast and temperature/exposure of your view.</p></li>
+<li><p>Settings — Clicking on this icon will open a menu containing resolution and quality settings.</p></li>
+<li><p>Add Preset — Use this button to add a preset with current camera settings.</p></li>
+<li><p>Filter Amount Slider — Use this slider to adjust how much the filter applies to the view</p></li>
+<li><p>Grid Mode — Toggles a grid over your view.</p></li>
+<li><p>Panorama Mode — Sets the view to panorama mode which will render a 360 image while active.</p></li>
+<li><p>Filter Toggle — Toggles if the filter is active or not.</p></li>
+<li><p>Filter List — Shows a list of the filters.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="placement-tool">
+<h2>Placement Tool<a class="headerlink" href="#placement-tool" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/LW_5_PlacementTool.jpg" src="../_images/LW_5_PlacementTool.jpg" />
+<ol class="arabic simple">
+<li><p>Placement Tool Icon — Click on this icon to access the placement tool and the settings for the placement tool.</p></li>
+<li><p>Navigation Tabs — Use this to navigate between different tabs for various object types.</p></li>
+<li><p>Displays the current selected object.</p></li>
+<li><p>Toggles multiple placement on/off.</p></li>
+<li><p>Toggle upright snap on/off when placing objects.</p></li>
+<li><p>Toggles random scale on/off for the current selected object.</p></li>
+<li><p>Toggles between placement and deletion of placed objects.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="material-tool">
+<h2>Material Tool<a class="headerlink" href="#material-tool" title="Permalink to this headline">¶</a></h2>
+<p>XXXXXX</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="annotation-tool">
+<h2>Annotation Tool<a class="headerlink" href="#annotation-tool" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/LW_7_AnnotationTool.jpg" src="../_images/LW_7_AnnotationTool.jpg" />
+<ol class="arabic simple">
+<li><p>Annotation Tool Icon — Click on this icon to access the annotation tool and the settings for the annotation tool.</p></li>
+<li><p>Distance Draw — Click on this icon to toggle distance draw on or off. If distance draw is off the annotation will not snap to objects.</p></li>
+<li><p>Layer Controls — use these buttons to clear or delete the corresponding layer.</p></li>
+<li><p>Layers — Select a layer to start making annotations on that layer.</p></li>
+<li><p>Assign and draw modes — Select the Assign icon to assign drawings to the selected layer and switch back to the draw mode to create drawings on the currently selected layer.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="measure-tool">
+<h2>Measure Tool<a class="headerlink" href="#measure-tool" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/LW_8_MeasureTool.jpg" src="../_images/LW_8_MeasureTool.jpg" />
+<ol class="arabic simple">
+<li><p>Measure Tool Icon — Click on this icon to access the measure tool and the settings for the measure tool.</p></li>
+<li><p>Used to select a measure mode, this will influence the direction the measurement tool will measure in.</p></li>
+<li><p>Use the drop down box to select the unit you wish to measure in.</p></li>
+<li><p>Displays the measurement mode that is being used.</p></li>
+<li><p>The visual reference of the distance measured.</p></li>
+<li><p>Displays the distance between two surfaces.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+<div class="section" id="share-a-walk-project">
+<h1>Share a .WALK Project<a class="headerlink" href="#share-a-walk-project" title="Permalink to this headline">¶</a></h1>
+<img alt="../_images/multiuser_min.gif" src="../_images/multiuser_min.gif" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>As long as another user has LUX Walker you can share a file with them and step into the same world.</p>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="how-to-multi-user-lux-walker-walkthrough">
+<h2>How To Multi-user LUX Walker walkthrough:<a class="headerlink" href="#how-to-multi-user-lux-walker-walkthrough" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Export your .WALK.</p></li>
+<li><p>Test your file in LUX Walker.</p></li>
+<li><p>Send the .WALK file to your collaborator – they need a copy of LUX Walker.</p></li>
+<li><p>Open the file on either PC’s.</p></li>
+<li><p>Enable Multi-User Mode.</p></li>
+<li><p>Click VR Mode icon.</p></li>
+<li><p>Open the file on the other PC.</p></li>
+<li><p>Enable Multi-User Mode.</p></li>
+<li><p>Click VR Mode icon.</p></li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../extra/index.html" class="btn btn-neutral float-right" title="Virtual Reality" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../export/obj.html" class="btn btn-neutral float-left" title="OBJ Export" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Tenebris Lab (PTY) Ltd
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
