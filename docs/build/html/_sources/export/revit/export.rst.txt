@@ -34,7 +34,7 @@ Enjoy your WALK
 Export Window Settings
 =====================================
 
-.. image:: images/exporter.jpg
+.. image:: images/exporter2.jpg
 
 Add Date:
 -------------------------
