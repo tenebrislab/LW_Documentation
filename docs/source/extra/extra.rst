@@ -1,7 +1,7 @@
 Virtual Reality
 ======================================
 
-.. image:: images/VRModes.jpg
+.. image:: /extra/images/VRModes.jpg
 
 .. note::
  Our software is aimed at users with a VR Headset and motion controllers. It is compatible with both Oculus and Steam VR Devices.
@@ -93,5 +93,5 @@ Installation
 ======================================
 
 
-   1. Go to tenebrislab.com/my-account and download LUX WALKER.
+   1. Go to https://www.tenebrislab.com/my-account and download LUX WALKER.
    2. Once downloaded, double click on the .exe to begin the installation process.

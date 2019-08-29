@@ -10,11 +10,11 @@ Some settings are only accessible using the mouse on the desktop.
 Settings Panel
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: images/desktopmenuclosed.jpg
+.. image:: /advanced/images/desktopmenuclosed.jpg
 
-.. image:: images/desktopmenuopen.jpg
+.. image:: /advanced/images/desktopmenuopen.jpg
 
-.. image:: images/menuadvanced.jpg
+.. image:: /advanced/images/menuadvanced.jpg
 
 |
 

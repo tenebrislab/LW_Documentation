@@ -1,7 +1,7 @@
 Revit  .WALK Addin
 ======================================
 
-.. image:: revit/images/exporter.jpg
+.. image:: /export/revit/images/exporter.jpg
 
 Our Revit plugin is compatible with Revit 2018-2020 and makes exporting your projects simple yet highly customizable.
 
