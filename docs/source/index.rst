@@ -81,7 +81,7 @@ More Info:
 
 .. toctree::
   :maxdepth: 3
-  :caption: LUX Home:
+  :caption: Advanced Features:
 
   1_luxhome/index
 
