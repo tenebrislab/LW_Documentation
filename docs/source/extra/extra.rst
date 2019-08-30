@@ -1,7 +1,7 @@
 Virtual Reality
 ======================================
 
-.. image:: /images/VRModes.jpg
+.. image:: images/VRModes.jpg
 
 .. note::
  Our software is aimed at users with a VR Headset and motion controllers. It is compatible with both Oculus and Steam VR Devices.
