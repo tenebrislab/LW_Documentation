@@ -46,7 +46,7 @@ More Info:
    :maxdepth: 3
    :caption: Getting Started:
 
-   extra/extra
+   extra/extrainfo
 
 
 
